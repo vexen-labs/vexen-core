@@ -30,8 +30,6 @@ Example:
 from .config import VexenConfig
 from .container import VexenContainer
 
-__version__ = "0.1.0"
-
 __all__ = [
 	"VexenContainer",
 	"VexenConfig",
