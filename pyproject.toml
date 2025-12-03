@@ -1,6 +1,6 @@
 [project]
 name = "vexen-core"
-version = "0.1.1"
+version = "0.1.2"
 description = "Integration layer for Vexen systems (user, rbac, auth)"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -8,7 +8,7 @@ dependencies = [
 	"sqlalchemy[asyncio]>=2.0.44",
 	"asyncpg>=0.29.0",
 	"greenlet>=3.0.0",
-	"vexen-user>=0.1.3",
+	"vexen-user>=0.1.4",
 	"vexen-rbac>=0.1.3",
 	"vexen-auth>=0.1.2",
 	"pyjwt>=2.8.0",
