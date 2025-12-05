@@ -14,7 +14,13 @@ dependencies = [
 	"vexen-auth>=0.1.3",
 	"pyjwt>=2.8.0",
 	"bcrypt>=4.1.0",
+	"uuid6>=2025.0.1",
 ]
+
+[tool.uv.sources]
+vexen-auth = { workspace = true }
+vexen-rbac = { workspace = true }
+vexen-user = { workspace = true }
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0", "pytest-asyncio>=0.23.0", "ruff>=0.8.0"]
